@@ -7,7 +7,6 @@ var modal = document.getElementById("images");
     img.onclick = function(){
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
     }
    
     var img = document.getElementById("teia");
@@ -15,7 +14,6 @@ var modal = document.getElementById("images");
     img.onclick = function(){
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
     }
 
     var img = document.getElementById("nia");
@@ -23,7 +21,6 @@ var modal = document.getElementById("images");
     img.onclick = function(){
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
     }
 
     var img = document.getElementById("kiara");
@@ -31,7 +28,6 @@ var modal = document.getElementById("images");
     img.onclick = function(){
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
     }
 
     var img = document.getElementById("ana");
@@ -39,7 +35,6 @@ var modal = document.getElementById("images");
     img.onclick = function(){
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
     }
 
     var img = document.getElementById("charlotte");
@@ -47,13 +42,12 @@ var modal = document.getElementById("images");
     img.onclick = function(){
       modal.style.display = "block";
       modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
     }
 
     // Get the <span> element that closes the modal
     var span = document.getElementsByClassName("close")[0];
     
     // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
+    span.onclick = () => {
       modal.style.display = "none";
     }

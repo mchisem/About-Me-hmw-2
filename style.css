@@ -233,24 +233,14 @@
   }
 
 /*the images*/
-#chante,
-#teia,
-#nia,
-#kiara,
-#ana,
-#charlotte {
+.pic {
    position: relative;
    float: left;
    overflow: auto;
    margin: 30px;
 }
 
-#chante,
-#teia,
-#nia,
-#kiara,
-#ana,
-#charlotte {
+.pic {
    opacity: 100;
    height: 335px;
    width: 260px;
@@ -258,21 +248,11 @@
  }
 
 /* when you hover over the images on the portfolio page it changes the opacity of the image */
-   #chante:hover,
-   #teia:hover,
-   #nia:hover,
-   #kiara:hover,
-   #ana:hover,
-   #charlotte:hover {
+.pic:hover {
      opacity: .5;
  }
 
- #chante,
- #teia,
- #nia,
- #kiara,
- #ana,
- #charlotte {
+.pic {
    cursor: pointer;
    transition: 0.1s;
 }
